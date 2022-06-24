@@ -1,0 +1,19 @@
+export 'package:flutter/material.dart';
+export 'package:flutter/material.dart';
+export 'package:flutter/material.dart';
+export 'package:flutter/material.dart';
+export 'package:get/get.dart';
+export 'package:get/get.dart';
+export 'package:get/get.dart';
+export 'package:get/get.dart';
+export 'package:processo_seletivo/page/page_parcela/page_parcela_controller.dart';
+export 'package:processo_seletivo/page/page_parcela/page_parcela_controller.dart';
+export 'package:processo_seletivo/page/page_parcela/widget_custom/custom_widget_body.dart';
+export 'package:processo_seletivo/page/page_parcela/widget_custom/widget_custom_bar.dart';
+export 'package:processo_seletivo/page/result_page/result_page_page.dart';
+export 'package:progress_timeline/progress_timeline.dart';
+
+export './page_parcela_controller.dart';
+export '../../infra/model/response_json_model.dart';
+export '../../infra/provider/provider_data.dart';
+export '../../infra/repository/respository_data.dart';
