@@ -1,11 +1,8 @@
-import 'package:processo_seletivo/util/method_util.dart';
-
 import 'imports.dart';
 
 class PageParcelaController extends GetxController with StateMixin {
   final arguments = Get.arguments;
   final ProviderData _providerData;
-  MethodUtil methodUtil = MethodUtil();
   bool click1 = false;
   bool click2 = false;
   bool click3 = false;
