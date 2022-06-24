@@ -11,9 +11,8 @@ class QuantiaController extends GetxController {
     );
     if (qtValor <= 999 || qtValor > 3000) {
       valor.clear();
-      print(arguments[0]);
-      print(arguments[1]);
-      return Get.snackbar('Valor', ' O valor  min é 1.000 e o max é 3.000 ',
+      return Get.snackbar(
+          'Valor', ' O valor  mínimo é 1.000 e valor o maxímo é 3.000',
           icon: const Icon(Icons.info), backgroundColor: Colors.red);
     } else if (qtValor <= 3000) {
       return Get.toNamed(

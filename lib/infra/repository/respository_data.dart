@@ -28,7 +28,6 @@ class RespositoryData {
       String convertUtlf = const Utf8Decoder().convert(response.bodyBytes);
       final listacometario = responseDadaJsonModelFromJson(convertUtlf);
       _requestDadaJsonModel = listacometario;
-      print(_requestDadaJsonModel);
     }
     return _requestDadaJsonModel;
   }
